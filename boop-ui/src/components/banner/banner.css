@@ -1,0 +1,67 @@
+.banner-section {
+  width: 100%;
+  min-height: 520px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.banner-overlay {
+  width: 100%;
+}
+
+.banner-content {
+  max-width: 520px;
+}
+
+.banner-accent {
+  width: 40px;
+  height: 3px;
+  background-color: var(--pc-primary);
+  margin-bottom: 16px;
+}
+
+.banner-title-small {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--pc-text-heading);
+  letter-spacing: 1px;
+}
+
+.banner-title-big {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: var(--pc-text-heading);
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.banner-text {
+  color: var(--pc-text-body);
+  margin-bottom: 28px;
+}
+
+.banner-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-read {
+  background-color: var(--pc-primary);
+  color: #fff;
+  padding: 10px 22px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.banner-video {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--pc-text-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
