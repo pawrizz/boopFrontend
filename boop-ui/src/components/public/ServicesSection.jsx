@@ -1,4 +1,4 @@
-import "./services.css";
+import "./css/services.css";
 
 export default function ServicesSection() {
   const services = [

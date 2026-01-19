@@ -1,4 +1,4 @@
-export default function Signup() {
+export default function Register() {
   return (
     <section className="section">
       <div className="container">

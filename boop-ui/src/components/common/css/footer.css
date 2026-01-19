@@ -1,0 +1,19 @@
+.footer {
+  width: 100%;
+  background-color: #0f1111;
+  border-top: 1px solid #1f2933;
+  padding: 8px 0;
+}
+
+.footer-inner {
+  max-width: 720px;
+  margin: 0 auto;
+
+  /* 🔑 ULTRA THIN */
+  padding: 2px 8px;        /* minimal vertical padding */
+  font-size: 11px;         /* slightly smaller */
+  line-height: 1.2;
+
+  text-align: center;
+  color: #9ca3af;
+}

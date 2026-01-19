@@ -1,4 +1,4 @@
-import "./pricing.css";
+import "./css/pricing.css";
 
 export default function PricingSection() {
   return (

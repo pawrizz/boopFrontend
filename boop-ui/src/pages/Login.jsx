@@ -61,22 +61,7 @@ export default function Login() {
                   onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
-
-              <button
-                type="submit"
-                className="btn"
-                style={{
-                  backgroundColor: "var(--pc-primary)",
-                  color: "#fff"
-                }}
-              >
-                Sign In
-              </button>
-            </form>
-
-          </div>
-        </div>
-        {/* Register and forgot password div starts */}
+               {/* Register and forgot password div starts */}
         <div className="d-flex justify-content-between mb-3">
           <span
             style={{
@@ -101,6 +86,20 @@ export default function Login() {
           </span>
         </div>
        {/* Register and forgot password div end */}
+              <button
+                type="submit"
+                className="btn"
+                style={{
+                  backgroundColor: "var(--pc-primary)",
+                  color: "#fff"
+                }}
+              >
+                Sign In
+              </button>
+            </form>
+
+          </div>
+        </div>
       </div>
     </section>
   );

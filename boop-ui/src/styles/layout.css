@@ -1,25 +1,54 @@
+/* ------------------------------
+   App Shell (DO NOT CHANGE)
+--------------------------------*/
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1 0 auto;
+}
+
+/* ------------------------------
+   Section spacing (GLOBAL)
+--------------------------------*/
 .section {
   padding: 80px 0;
 }
 
-.section-light {
-  background-color: var(--pc-bg-section);
+/* ------------------------------
+   Auth / short pages FIX
+   (prevents footer floating)
+--------------------------------*/
+.app-content > .section {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.section-header {
-  text-align: center;
-  margin-bottom: 50px;
+/* If section is first child */
+.app-content > .section:first-child {
+  padding-top: 32px;
 }
 
-.section-accent {
-  width: 40px;
-  height: 3px;
-  background-color: var(--pc-primary);
-  margin: 0 auto 12px;
+/* ------------------------------
+   Optional: safer small sections
+--------------------------------*/
+.section-sm {
+  padding: 32px 0;
 }
 
-.section-title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--pc-text-heading);
+.section-md {
+  padding: 56px 0;
 }

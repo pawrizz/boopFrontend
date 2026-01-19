@@ -1,4 +1,4 @@
-import "./banner.css";
+import "./css/banner.css";
 
 export default function BannerSection() {
   return (
