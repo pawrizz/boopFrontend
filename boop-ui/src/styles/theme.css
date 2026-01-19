@@ -1,0 +1,22 @@
+:root {
+  /* ===== Brand ===== */
+  --pc-primary: #7ab730;
+  --pc-primary-dark: #5e8f24;
+
+  /* ===== Text ===== */
+  --pc-text-heading: #181818;
+  --pc-text-body: #656565;
+  --pc-text-muted: #9e9e9e;
+
+  /* ===== Backgrounds ===== */
+  --pc-bg-page: #ffffff;
+  --pc-bg-section: #f6f6f6;
+  --pc-bg-card: #ffffff;
+
+  /* ===== Borders ===== */
+  --pc-border: #e5e5e5;
+
+  /* ===== Footer ===== */
+  --pc-footer-bg: #181818;
+  --pc-footer-text: #bdbdbd;
+}

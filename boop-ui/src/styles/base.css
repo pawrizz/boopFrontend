@@ -1,0 +1,18 @@
+body {
+  background: var(--pc-bg-page);
+  color: var(--pc-text-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--pc-text-heading);
+}
+
+.section {
+  background: var(--pc-bg-section);
+}
+
+.card,
+.bg-card {
+  background: var(--pc-bg-card);
+  border: 1px solid var(--pc-border);
+}

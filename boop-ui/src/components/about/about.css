@@ -1,0 +1,28 @@
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.about-feature-icon {
+  width: 40px;
+  height: 40px;
+  background-color: var(--pc-primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  font-size: 1rem;
+}
+
+.about-feature-text {
+  color: var(--pc-text-body);
+  font-size: 0.9rem;
+}

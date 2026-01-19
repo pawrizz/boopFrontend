@@ -1,38 +1,45 @@
-export default function HeroSection() {
+import "./banner.css";
+
+export default function BannerSection() {
   return (
-    <div
-      className="section"
-      style={{ backgroundColor: "var(--pc-bg-main)" }}
+    <section
+      className="banner-section"
+      style={{
+        backgroundImage:
+          "url('https://images.unsplash.com/photo-1518717758536-85ae29035b6d')"
+      }}
     >
-      <div className="container d-flex justify-content-center">
-        <div
-          className="p-5 text-center"
-          style={{
-            backgroundColor: "var(--pc-bg-card)",
-            borderRadius: "16px",
-            maxWidth: "420px",
-            boxShadow: "0 10px 30px rgba(0,0,0,0.12)"
-          }}
-        >
-          <h2 style={{ color: "var(--pc-text-title)" }}>
-            Pawrizz
-          </h2>
+      <div className="banner-overlay">
+        <div className="container">
+          <div className="banner-content">
+            <div className="banner-accent" />
 
-          <p style={{ color: "var(--pc-text-body)" }}>
-            Your pet health companion — adoption, care & assistance
-            in one place.
-          </p>
+            <div className="banner-title-small">
+              PET SHOP
+            </div>
 
-          <div className="d-flex justify-content-center gap-3 mt-4">
-            <button className="btn btn-success px-4">
-              Open Boop Assist
-            </button>
-            <button className="btn btn-outline-success px-4">
-              Sign In
-            </button>
+            <div className="banner-title-big">
+              MAKE YOUR PETS HAPPY
+            </div>
+
+            <p className="banner-text">
+              Dolore tempor clita lorem rebum kasd
+              eirmod dolore diam eos kasd. Kasd
+              clita ea justo est sed kasd erat clita sea.
+            </p>
+
+            <div className="banner-actions">
+              <span className="banner-read">
+                READ MORE
+              </span>
+
+              <span className="banner-video">
+                ▶ Play Video
+              </span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
